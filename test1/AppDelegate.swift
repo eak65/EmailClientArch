@@ -7,15 +7,19 @@
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
+let navigationController = UINavigationController()
+var window: UIWindow?
+     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+         let window = UIWindow(frame: UIScreen.main.bounds)
+         window.rootViewController = navigationController
+         window.makeKeyAndVisible()
+         self.window = window
+         return true
+     }
 
     // MARK: UISceneSession Lifecycle
 

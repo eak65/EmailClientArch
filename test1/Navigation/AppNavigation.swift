@@ -11,19 +11,20 @@ import UIKit
 class AppNavigation : LoginUseCaseOutput {
     let navigationController : UINavigationController
     func loginSuccess() {
-        
+        navigationController.pushViewController(factory.makeEmailController(nav: self), animated: true)
     }
     
     func loginFailure() {
         
     }
     
-    let factory : LoginFactory
-    init(nav: UINavigationController, factory: LoginFactory) {
+    let factory : Factory
+    init(nav: UINavigationController, factory: Factory) {
         self.factory = factory
         self.navigationController = nav
-        self.navigationController.pushViewController(factory.makeLoginController(), animated: true)
+        self.navigationController.pushViewController(factory.makeLoginController(nav: self), animated: true)
     }
+    
     
     
     

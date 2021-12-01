@@ -9,6 +9,7 @@ import UIKit
 
 class EmailDetailTableController: UITableViewController {
         
+    //var modelView = EmailViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
 

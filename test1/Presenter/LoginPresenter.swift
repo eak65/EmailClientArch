@@ -8,11 +8,6 @@
 import Foundation
 
 class LoginPresenter: LoginUseCaseOutput {
-    let controller : LoginViewController
-    init(loginController: LoginViewController) {
-        controller = loginController
-    }
-
     func loginSuccess() {
         print("Login Presenter")
     }

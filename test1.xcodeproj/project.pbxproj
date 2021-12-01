@@ -10,9 +10,32 @@
 		298F138D2753972600515CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F138C2753972600515CE1 /* AppDelegate.swift */; };
 		298F138F2753972600515CE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F138E2753972600515CE1 /* SceneDelegate.swift */; };
 		298F13912753972600515CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13902753972600515CE1 /* ViewController.swift */; };
-		298F13942753972600515CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298F13922753972600515CE1 /* Main.storyboard */; };
 		298F13962753972700515CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298F13952753972700515CE1 /* Assets.xcassets */; };
 		298F13992753972700515CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298F13972753972700515CE1 /* LaunchScreen.storyboard */; };
+		298F13AE27539F4800515CE1 /* LoginUseCaseComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13A127539F4800515CE1 /* LoginUseCaseComposer.swift */; };
+		298F13AF27539F4800515CE1 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13A327539F4800515CE1 /* LoginPresenter.swift */; };
+		298F13B027539F4800515CE1 /* AuthenticationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13A527539F4800515CE1 /* AuthenticationApi.swift */; };
+		298F13B127539F4800515CE1 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13A627539F4800515CE1 /* LoginResponse.swift */; };
+		298F13B227539F4800515CE1 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13A827539F4800515CE1 /* AppNavigation.swift */; };
+		298F13B327539F4800515CE1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298F13AA27539F4800515CE1 /* LoginViewController.xib */; };
+		298F13B427539F4800515CE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13AB27539F4800515CE1 /* LoginViewController.swift */; };
+		298F13B527539F4800515CE1 /* CrashlyticsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13AD27539F4800515CE1 /* CrashlyticsWrapper.swift */; };
+		298F13B727539F5C00515CE1 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13B627539F5C00515CE1 /* Factory.swift */; };
+		298F13BB27539F7A00515CE1 /* LoginUseCaseOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13B927539F7A00515CE1 /* LoginUseCaseOutput.swift */; };
+		298F13BC27539F7A00515CE1 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13BA27539F7A00515CE1 /* LoginUseCase.swift */; };
+		298F13BF2753A02C00515CE1 /* EmailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13BD2753A02C00515CE1 /* EmailTableViewController.swift */; };
+		298F13C02753A02C00515CE1 /* EmailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298F13BE2753A02C00515CE1 /* EmailTableViewController.xib */; };
+		298F13C22753A43000515CE1 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13C12753A43000515CE1 /* Email.swift */; };
+		298F13C52753AA9200515CE1 /* EmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13C42753AA9200515CE1 /* EmailViewModel.swift */; };
+		298F13C72754626900515CE1 /* EmailFeedApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13C62754626900515CE1 /* EmailFeedApi.swift */; };
+		298F13C92754657800515CE1 /* FeedComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13C82754657800515CE1 /* FeedComposer.swift */; };
+		298F13CB275469B100515CE1 /* EmailTableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13CA275469B100515CE1 /* EmailTableViewPresenter.swift */; };
+		298F13CE2754887800515CE1 /* DetailEmailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13CC2754887800515CE1 /* DetailEmailTableViewController.swift */; };
+		298F13CF2754887800515CE1 /* DetailEmailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298F13CD2754887800515CE1 /* DetailEmailTableViewController.xib */; };
+		298F13D22754B83600515CE1 /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13D02754B83600515CE1 /* EmailTableViewCell.swift */; };
+		298F13D32754B83600515CE1 /* EmailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298F13D12754B83600515CE1 /* EmailTableViewCell.xib */; };
+		298F13D92754BF7B00515CE1 /* EmailDetailTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F13D72754BF7B00515CE1 /* EmailDetailTableController.swift */; };
+		298F13DA2754BF7B00515CE1 /* EmailDetailTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298F13D82754BF7B00515CE1 /* EmailDetailTableController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +43,33 @@
 		298F138C2753972600515CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		298F138E2753972600515CE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		298F13902753972600515CE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		298F13932753972600515CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		298F13952753972700515CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298F13982753972700515CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298F139A2753972700515CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298F13A127539F4800515CE1 /* LoginUseCaseComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUseCaseComposer.swift; sourceTree = "<group>"; };
+		298F13A327539F4800515CE1 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		298F13A527539F4800515CE1 /* AuthenticationApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationApi.swift; sourceTree = "<group>"; };
+		298F13A627539F4800515CE1 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		298F13A827539F4800515CE1 /* AppNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		298F13AA27539F4800515CE1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		298F13AB27539F4800515CE1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		298F13AD27539F4800515CE1 /* CrashlyticsWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashlyticsWrapper.swift; sourceTree = "<group>"; };
+		298F13B627539F5C00515CE1 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		298F13B927539F7A00515CE1 /* LoginUseCaseOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUseCaseOutput.swift; sourceTree = "<group>"; };
+		298F13BA27539F7A00515CE1 /* LoginUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		298F13BD2753A02C00515CE1 /* EmailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewController.swift; sourceTree = "<group>"; };
+		298F13BE2753A02C00515CE1 /* EmailTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailTableViewController.xib; sourceTree = "<group>"; };
+		298F13C12753A43000515CE1 /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		298F13C42753AA9200515CE1 /* EmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewModel.swift; sourceTree = "<group>"; };
+		298F13C62754626900515CE1 /* EmailFeedApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailFeedApi.swift; sourceTree = "<group>"; };
+		298F13C82754657800515CE1 /* FeedComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedComposer.swift; sourceTree = "<group>"; };
+		298F13CA275469B100515CE1 /* EmailTableViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewPresenter.swift; sourceTree = "<group>"; };
+		298F13CC2754887800515CE1 /* DetailEmailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEmailTableViewController.swift; sourceTree = "<group>"; };
+		298F13CD2754887800515CE1 /* DetailEmailTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailEmailTableViewController.xib; sourceTree = "<group>"; };
+		298F13D02754B83600515CE1 /* EmailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
+		298F13D12754B83600515CE1 /* EmailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailTableViewCell.xib; sourceTree = "<group>"; };
+		298F13D72754BF7B00515CE1 /* EmailDetailTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailDetailTableController.swift; sourceTree = "<group>"; };
+		298F13D82754BF7B00515CE1 /* EmailDetailTableController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailDetailTableController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +102,126 @@
 		298F138B2753972600515CE1 /* test1 */ = {
 			isa = PBXGroup;
 			children = (
+				298F13C32753AA7400515CE1 /* Model */,
+				298F13B827539F7A00515CE1 /* Use Case */,
+				298F13AC27539F4800515CE1 /* Analytics */,
+				298F13A027539F4800515CE1 /* Composers */,
+				298F13A727539F4800515CE1 /* Navigation */,
+				298F13A427539F4800515CE1 /* Networking */,
+				298F13A227539F4800515CE1 /* Presenter */,
+				298F13A927539F4800515CE1 /* UI */,
 				298F138C2753972600515CE1 /* AppDelegate.swift */,
+				298F13B627539F5C00515CE1 /* Factory.swift */,
 				298F138E2753972600515CE1 /* SceneDelegate.swift */,
 				298F13902753972600515CE1 /* ViewController.swift */,
-				298F13922753972600515CE1 /* Main.storyboard */,
 				298F13952753972700515CE1 /* Assets.xcassets */,
 				298F13972753972700515CE1 /* LaunchScreen.storyboard */,
 				298F139A2753972700515CE1 /* Info.plist */,
+				298F13CC2754887800515CE1 /* DetailEmailTableViewController.swift */,
+				298F13CD2754887800515CE1 /* DetailEmailTableViewController.xib */,
 			);
 			path = test1;
+			sourceTree = "<group>";
+		};
+		298F13A027539F4800515CE1 /* Composers */ = {
+			isa = PBXGroup;
+			children = (
+				298F13A127539F4800515CE1 /* LoginUseCaseComposer.swift */,
+				298F13C82754657800515CE1 /* FeedComposer.swift */,
+			);
+			path = Composers;
+			sourceTree = "<group>";
+		};
+		298F13A227539F4800515CE1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				298F13A327539F4800515CE1 /* LoginPresenter.swift */,
+				298F13CA275469B100515CE1 /* EmailTableViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		298F13A427539F4800515CE1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				298F13A527539F4800515CE1 /* AuthenticationApi.swift */,
+				298F13A627539F4800515CE1 /* LoginResponse.swift */,
+				298F13C62754626900515CE1 /* EmailFeedApi.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		298F13A727539F4800515CE1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				298F13A827539F4800515CE1 /* AppNavigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		298F13A927539F4800515CE1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				298F13D62754B9BD00515CE1 /* Cell */,
+				298F13D52754B9A500515CE1 /* Controllers */,
+				298F13D42754B99B00515CE1 /* ViewModel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		298F13AC27539F4800515CE1 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				298F13AD27539F4800515CE1 /* CrashlyticsWrapper.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		298F13B827539F7A00515CE1 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				298F13B927539F7A00515CE1 /* LoginUseCaseOutput.swift */,
+				298F13BA27539F7A00515CE1 /* LoginUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		298F13C32753AA7400515CE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				298F13C12753A43000515CE1 /* Email.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		298F13D42754B99B00515CE1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				298F13C42753AA9200515CE1 /* EmailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		298F13D52754B9A500515CE1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				298F13AA27539F4800515CE1 /* LoginViewController.xib */,
+				298F13AB27539F4800515CE1 /* LoginViewController.swift */,
+				298F13BD2753A02C00515CE1 /* EmailTableViewController.swift */,
+				298F13BE2753A02C00515CE1 /* EmailTableViewController.xib */,
+				298F13D72754BF7B00515CE1 /* EmailDetailTableController.swift */,
+				298F13D82754BF7B00515CE1 /* EmailDetailTableController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		298F13D62754B9BD00515CE1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				298F13D02754B83600515CE1 /* EmailTableViewCell.swift */,
+				298F13D12754B83600515CE1 /* EmailTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +282,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298F13C02753A02C00515CE1 /* EmailTableViewController.xib in Resources */,
+				298F13CF2754887800515CE1 /* DetailEmailTableViewController.xib in Resources */,
 				298F13992753972700515CE1 /* LaunchScreen.storyboard in Resources */,
 				298F13962753972700515CE1 /* Assets.xcassets in Resources */,
-				298F13942753972600515CE1 /* Main.storyboard in Resources */,
+				298F13D32754B83600515CE1 /* EmailTableViewCell.xib in Resources */,
+				298F13DA2754BF7B00515CE1 /* EmailDetailTableController.xib in Resources */,
+				298F13B327539F4800515CE1 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +299,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298F13B427539F4800515CE1 /* LoginViewController.swift in Sources */,
+				298F13C92754657800515CE1 /* FeedComposer.swift in Sources */,
+				298F13CB275469B100515CE1 /* EmailTableViewPresenter.swift in Sources */,
+				298F13B027539F4800515CE1 /* AuthenticationApi.swift in Sources */,
 				298F13912753972600515CE1 /* ViewController.swift in Sources */,
+				298F13C52753AA9200515CE1 /* EmailViewModel.swift in Sources */,
+				298F13D92754BF7B00515CE1 /* EmailDetailTableController.swift in Sources */,
+				298F13C72754626900515CE1 /* EmailFeedApi.swift in Sources */,
+				298F13B727539F5C00515CE1 /* Factory.swift in Sources */,
+				298F13B527539F4800515CE1 /* CrashlyticsWrapper.swift in Sources */,
 				298F138D2753972600515CE1 /* AppDelegate.swift in Sources */,
+				298F13BB27539F7A00515CE1 /* LoginUseCaseOutput.swift in Sources */,
 				298F138F2753972600515CE1 /* SceneDelegate.swift in Sources */,
+				298F13AE27539F4800515CE1 /* LoginUseCaseComposer.swift in Sources */,
+				298F13AF27539F4800515CE1 /* LoginPresenter.swift in Sources */,
+				298F13B127539F4800515CE1 /* LoginResponse.swift in Sources */,
+				298F13D22754B83600515CE1 /* EmailTableViewCell.swift in Sources */,
+				298F13C22753A43000515CE1 /* Email.swift in Sources */,
+				298F13BC27539F7A00515CE1 /* LoginUseCase.swift in Sources */,
+				298F13CE2754887800515CE1 /* DetailEmailTableViewController.swift in Sources */,
+				298F13BF2753A02C00515CE1 /* EmailTableViewController.swift in Sources */,
+				298F13B227539F4800515CE1 /* AppNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		298F13922753972600515CE1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				298F13932753972600515CE1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		298F13972753972700515CE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +466,6 @@
 				INFOPLIST_FILE = test1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +493,6 @@
 				INFOPLIST_FILE = test1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
